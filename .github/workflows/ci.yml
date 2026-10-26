@@ -1,0 +1,23 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+          extensions: pdo_pgsql, curl, mbstring, fileinfo, gd, intl, zip
+      - name: Lint PHP
+        run: |
+          find app bin config database routes -name '*.php' -print0 \
+            | xargs -0 -n1 php -l > /tmp/lint.txt
+          ! grep -v 'No syntax errors' /tmp/lint.txt
+      - name: Check schema files
+        run: test -f database/migrations/001_schema.sql && test -f database/seeds/catalog.php

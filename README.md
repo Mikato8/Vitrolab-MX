@@ -17,6 +17,7 @@ VitroLab MX es un portal en español para documentar el **cultivo in vitro de ma
 - **Biblioteca y glosario:** repositorios, datasets, manuales y literatura científica, además de un vocabulario común para comparar protocolos.
 
 > **Demo en línea:** <https://lightcoral-hare-545659.hostingersite.com>
+> **Repositorio:** <https://github.com/Mikato8/Vitrolab-MX>
 >
 > Contenido demostrativo: **10 casos, 7 reportes, 24 especies y 32 instituciones**. Las cifras de los casos y reportes demo son ilustrativas y están marcadas como tales.
 
@@ -37,6 +38,10 @@ La verificación es **institucional**: correo de una institución registrada, do
 | Instituciones | Biblioteca | Móvil |
 | --- | --- | --- |
 | ![Instituciones](docs/capturas/instituciones.png) | ![Biblioteca](docs/capturas/biblioteca.png) | ![Móvil](docs/capturas/mobile-home.png) |
+
+| Panel editorial | Formulario de caso |
+| --- | --- |
+| ![Panel editorial](docs/capturas/admin.png) | ![Formulario](docs/capturas/form-caso.png) |
 
 ## Funcionalidades
 
