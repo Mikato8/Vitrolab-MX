@@ -81,6 +81,7 @@ if ($force) {
     Database::execute("delete from comments where (target_type = 'caso' and target_id in ({$demoCaseIds})) or (target_type = 'reporte' and target_id in ({$demoReportIds}))");
     Database::execute("delete from reactions where (target_type = 'caso' and target_id in ({$demoCaseIds})) or (target_type = 'reporte' and target_id in ({$demoReportIds}))");
     Database::execute("delete from bookmarks where (target_type = 'caso' and target_id in ({$demoCaseIds})) or (target_type = 'reporte' and target_id in ({$demoReportIds}))");
+    Database::execute("delete from reviews where (target_type = 'caso' and target_id in ({$demoCaseIds})) or (target_type = 'reporte' and target_id in ({$demoReportIds}))");
     Database::execute('delete from reports where is_demo = true');
     Database::execute('delete from cases where is_demo = true');
 }
