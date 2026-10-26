@@ -1,0 +1,16 @@
+campo,valor,unidad,notas
+titulo,,,
+resumen,,,
+tipo_de_reporte,ensayo,,ensayo|protocolo|diagnostico|seguimiento|validacion|datos
+especie,,,
+linea_de_trabajo,,,
+objetivo,,,
+hipotesis,,,
+diseno_experimental,,,
+unidad_experimental,,,
+repeticiones,,,
+variables,,,
+resultado_principal,,,
+conclusion,,,
+limitaciones,,,
+referencias,,,

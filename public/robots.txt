@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /mi-panel
+Disallow: /perfil
+Disallow: /acceder
+Disallow: /registro
+Disallow: /recuperar
+Disallow: /buscar
+Disallow: /uploads/constancias
+
+Sitemap: https://lightcoral-hare-545659.hostingersite.com/sitemap.xml
